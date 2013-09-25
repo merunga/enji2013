@@ -47,6 +47,9 @@ body {
 /*********************************************
  * LINKS
  *********************************************/
+.reveal a {
+  padding-left: 0.2em; }
+
 .reveal a:not(.image) {
   color: #e7ad52;
   text-decoration: none;
