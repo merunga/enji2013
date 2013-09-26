@@ -5,6 +5,9 @@ img.limpia {
   background-color: transparent !important;
   border: none !important;
 }
+.fake {
+  text-decoration: none;
+}
 .reveal .slides section .fragment.win {
   opacity: 1;
 }
