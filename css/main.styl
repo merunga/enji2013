@@ -1,0 +1,29 @@
+section.spaced
+  *
+    line-height 1.3em
+img.limpia
+  background-color transparent !important
+  border none !important
+
+.reveal
+  .slides section
+    .fragment.win
+      opacity 1
+      &.visible
+        color green
+        -webkit-transform: scale( 1.3 );
+        -moz-transform: scale( 1.3 );
+        -ms-transform: scale( 1.3 );
+        -o-transform: scale( 1.3 );
+        transform: scale( 1.3 );
+
+    .fragment.fail
+      opacity 1
+      &.visible
+        color red
+        text-decoration line-through
+        -webkit-transform: scale( 0.7 );
+        -moz-transform: scale( 0.7 );
+        -ms-transform: scale( 0.7 );
+        -o-transform: scale( 0.7 );
+        transform: scale( 0.7 );
